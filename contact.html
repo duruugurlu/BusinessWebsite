@@ -3,17 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title> Palmier </title>
+        <link rel="stylesheet" type = "text/css" href= "style.css">
             <style type="text/css">
-        		h1 {font-size:24px; font-family: Cambria; text-align:center; color: #fff; letter-spacing: 4px; font-weight:normal}
-                nav {text-align:center; margin-top: 8%; border-top: 1px solid #fff; border-bottom: 1px solid #fff; color: #ff}
-                nav ul li {display:inline; padding-left: 5%; padding-right: 8%; color: #fff; text-align:center;}
-                nav ul li a:hover {text-decoration: underline; text-underline-position: under; box-sizing: border-box;}
-                nav ul li a {font-size:24px; color: #fff; text-decoration: none; font-family: Cambria;}
-                body {background-color: #000; background-image: url('newBackground.jpg');}
-                img.header {display: block; margin-left: auto;margin-right: auto; width: 95%;}
-h2 {margin-top: 8%; display: block; margin-left: auto;margin-right: auto; font-size:40px; font-family: Cambria; text-align:center; color: #fff; letter-spacing: 4px; font-weight:normal;  border-radius: 25px; border: 1px solid #fff; width: 45%; min-width: 250px; background-color: rgba(255, 255, 255, 0.2);}                h3 {color: #fff;}
                 p {color: #fff}
-                <!-- div.background {background-color: #000; align:center; width: 95%; position: absolute; top: 5%; left: 2.5%} -->
         	</style>
     </head>
     <body>
@@ -31,6 +23,21 @@ h2 {margin-top: 8%; display: block; margin-left: auto;margin-right: auto; font-s
             </nav>
 
             <h2>CONTACT US</h2>
+            <div class="about">
+                <p>If you would like to contact us or submit a recipe to our publication, you can contact us at Editor@ThePalmier.net. You can also fill out the form below, and we will contact you about your recipe.</p>
+                <form action='#' method='post'>
+                  <label for="fname">First Name:</label><br>
+                  <input type="text" id="fname" name="fname" value=""><br>
+                  <label for="lname">Last Name:</label><br>
+                  <input type="text" id="lname" name="lname" value=""><br>
+                  <label for="email">E-mail Address:</label><br>
+                  <input type="text" id="email" name="email" value=""><br>
+                  <label for="recipe">Recipe Proposal:</label><br>
+                  <input type="text" id="recipe" name="recipe" value=""><br><br>
+                  <input type="submit" value="Submit">
+                </form>
+            </div>
+
 
     </body>
 </html>
